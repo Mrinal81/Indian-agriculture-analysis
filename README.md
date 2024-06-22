@@ -1,50 +1,71 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Indian Agriculture Data Analysis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project analyzes Indian agricultural data from 1950 to 2020, providing insights into crop production, yield, and cultivation area trends.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Yearly statistics showing crops with maximum and minimum production
+- Average yield and cultivation area for each crop over the entire period
+- Interactive tables for easy data exploration
 
-### `npm start`
+## Technology Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- TypeScript
+- Mantine UI
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+- Node.js (version 14 or higher)
+- Yarn package manager
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    git clone https://github.com/Mrinal81/Indian-agriculture-analysis.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    cd agriculture-analysis
 
-### `npm run eject`
+3. Install Dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running the Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Start the development server:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    yarn start
 
-## Learn More
+2. Open your browser and navigate to `http://localhost:3000`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# Indian-agriculture-analysis
->>>>>>> origin/main
+- `src/components/`: React components including YearlyCropStatsTable and CropAveragesTable
+
+- `src/utils/`: Utility functions for data processing
+
+- `public/`: Public assets including the CSV data file
+
+## Data Source
+
+The agricultural data is stored in `public/agriculture_data.csv`. This file contains yearly data on crop production, yield, and cultivation area from 1950 to 2020.
+
+## Building for Production
+
+To create a production build:
+
+  yarn build
+
+The build files will be in the `build` directory.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+
+## Contact
+
+If you have any questions or feedback, please contact [Mrinal Anand] at [mrinalanand561@gmail.com].
