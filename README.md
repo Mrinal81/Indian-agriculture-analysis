@@ -8,6 +8,16 @@ This project analyzes Indian agricultural data from 1950 to 2020, providing insi
 - Average yield and cultivation area for each crop over the entire period
 - Interactive tables for easy data exploration
 
+### Yearly Crop Statistics Table
+
+![Screenshot 2024-06-22 203725](https://github.com/Mrinal81/Indian-agriculture-analysis/assets/76482022/33228455-9180-47a2-a3ee-923e636f2032)
+
+### Crop Averages Table
+
+![Screenshot 2024-06-22 203737](https://github.com/Mrinal81/Indian-agriculture-analysis/assets/76482022/efed197a-65f4-48fd-b4dc-05b88705674a)
+
+
+
 ## Technology Stack
 
 - React
