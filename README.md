@@ -68,4 +68,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-If you have any questions or feedback, please contact [Mrinal Anand] at [mrinalanand561@gmail.com].
+If you have any questions or feedback, please contact Mrinal Anand at mrinalanand561@gmail.com.
